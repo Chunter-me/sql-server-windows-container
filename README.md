@@ -4,6 +4,7 @@ Windows SQL Server image based on Microsoft base image but includes SQL Server F
 I use this image to run my Aptify Databases for development purposes from.
 
 **NOTE**: The following is all based on using Docker Desktop on a local windows 10 or 11 machine.
+
 **NOTE**: This is a Windows Container, make sure to have your Docker Desktop switch to Widnows Containers.
 
 ## Pull from Docker Hub
