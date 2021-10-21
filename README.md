@@ -8,7 +8,7 @@ I use this image to run my Aptify Databases for development purposes from.
 **NOTE**: This is a Windows Container, make sure to have your Docker Desktop switch to Widnows Containers.
 
 ## Pull from Docker Hub
-You can pull the image from docker hub (https://hub.docker.com/repository/docker/chunterme/sql-windows):<br>
+You can pull the image from docker hub (https://hub.docker.com/r/chunterme/sql-windows):<br>
 `docker pull chunterme/sql-windows:latest`
 
 ## Create Container
