@@ -3,7 +3,6 @@ Windows SQL Server image based on Microsoft base image but includes SQL Server F
 
 I use this image to run my Aptify Databases for development purposes from.
 
-
 **NOTES**
 - The following is all based on having **Docker Desktop** installed locally on a local windows 10 or 11 machine.
 
@@ -31,7 +30,7 @@ Move either you backup file or DB file to the `<LOCAL PATH>` you specified in th
 ## Connect to SQL Instance
 Open SSMS or Azure DataStudio or what ever your prefered editor is.
 
-Your server is `127.0.0.1,<DesiredPort>`
+Your server is `127.0.0.1,<DesiredPort>`. If 127.0.0.1 isn't connecting try `.,<DesiredPort>`. I've run into this every now and then.
 
 Where the `<DesiredPort>` is the port number you entered in the create container command.
 
