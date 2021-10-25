@@ -3,11 +3,22 @@ Windows SQL Server image based on Microsoft base image but includes SQL Server F
 
 I use this image to run my Aptify Databases for development purposes from.
 
-**NOTE**: The following is all based on using Docker Desktop on a local windows 10 or 11 machine.
 
-**NOTE**: This is a Windows Container, make sure to have your Docker Desktop switch to Widnows Containers.
+**NOTES**
+- The following is all based on having **Docker Desktop** installed locally on a local windows 10 or 11 machine.
 
-## Pull from Docker Hub
+- This is a Windows Container, make sure to have your Docker Desktop switch to Widnows Containers.
+
+- Run commands from either Windows Terminal, PowerShell or the Command Prompt.
+
+## Build Local Docker Image
+You can build your own local image:<br>
+`docker build -t <ORG/COMPANY/PERSONAL ACRONYM>/<IMAGE NAME> <FOLDER PATH TO DOCKERFILE>`
+
+Example if your terminal is within the root of this repo:<br>
+`docker build -t chunterme/sql-windows .\Dockerfile`
+
+## OR: Pull from my personal Docker Hub
 You can pull the image from docker hub:<br>
 `docker pull chunterme/sql-windows:latest`
 
